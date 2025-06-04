@@ -16,7 +16,6 @@ const Navbar = () => {
             <Image src={Chef} alt='main_logo' />
           </div>
 
-
           <div>
             <ul className='hidden  md:flex justify-center items-center md:items-center md:justify-center leading-[1.1] text-[18px] font-Inter font-semibold gap-[6px] md:gap-[16px] text-white'>
               <li className='cursor-pointer hover:text-amber-600'>Welcome</li>
@@ -25,8 +24,6 @@ const Navbar = () => {
               <li className='cursor-pointer hover:text-amber-600'>Contacts</li>
             </ul>
           </div>
-
-
 
           <div className="flex items-center justify-between md:justify-end gap-[30px] text-white px-4 md:px-0 py-4 md:py-0">
             <div className="md:hidden cursor-pointer">
@@ -43,11 +40,8 @@ const Navbar = () => {
             </div>
           </div>
 
-
         </div>
-
       </div>
-
     </nav>
   )
 }
