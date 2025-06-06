@@ -8,10 +8,15 @@ const Hero = () => {
             <div className='relative z-[1]'>
                 <Image src={hero} alt='hero_logo' />
                 <div className='container absolute top-[20px] sm:top-[50px] lg:top-[72px] left-0 z-[1]'>
-                    <span className='text-white text-[20px] sm:text-[40px] lg:text-[50px] xl:text-[66px] font-semibold lg:font-bold leading-[1.4]'>Welcome!</span>
-                    <h1 className='text-white text-[20px] sm:text-[40px] lg:text-[50px] xl:text-[66px] font-semibold lg:font-bold leading-[1.4] max-w-[225px] sm:max-w-[350px] lg:max-w-[580px] xl:max-w-[652px]'>  We Made Delicious Food for You
+                    <span className='text-white text-[clamp(20px,5vw,40px)] font-semibold lg:font-bold leading-[1.4]'>
+                        Welcome!
+                    </span>
+
+                    <h1 className='text-white text-[clamp(20px,5vw,40px)] font-semibold lg:font-bold leading-[1.4] max-w-[225px] sm:max-w-[350px] lg:max-w-[465px] '>
+                        We Made Delicious Food for You
                     </h1>
-                    <p className='text-white text-[20px] leading-[1.5] max-w-[510px]'>
+
+                    <p className='text-white text-[14px] md:text-[20px] leading-[1.5] max-w-[280px] md:max-w-[510px]'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                     <div className='pt-[40px]' >
