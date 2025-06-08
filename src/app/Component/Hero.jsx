@@ -19,8 +19,8 @@ const Hero = () => {
                     <p className='text-white text-[14px] md:text-[20px] leading-[1.5] max-w-[280px] md:max-w-[510px]'>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
-                    <div className='pt-[40px]' >
-                        <p className='inline-block rounded-4xl px-6 py-4 bg-white cursor-pointer'>Order online</p>
+                    <div className='pt-[10px] sm:pt-[40px]' >
+                        <p className='inline-block rounded-4xl px-30 py-2 sm:px-6 sm:py-4 bg-white cursor-pointer'>Order online</p>
                     </div>
                 </div>
             </div>
