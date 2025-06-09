@@ -2,13 +2,14 @@ import React from 'react'
 import Image from 'next/image';
 import { FaFacebook } from "react-icons/fa";
 import Bkash from "@/app/Assets/BKash.png";
+import Visa from "@/app/Assets/visa.svg";
 
 
 const Footer = () => {
   return (
     <footer className='bg-black py-[80px]'>
       <div className='container '>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-[60px] lg:gap-[95px] xl:gap-[103px] pb-[100px]'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 text-center sm:text-start  gap-[60px] lg:gap-[95px] xl:gap-[103px] pb-[100px]'>
           <div>
             <div>
               <p className='text-white text-[19px] xl:text-[24px] leading-1 pb-[30px]'>Our Products</p>
@@ -42,32 +43,46 @@ const Footer = () => {
           </div>
 
           <div>
-            <div>
+            {/* <div>
               <p className='text-white text-[19px] xl:text-[24px]  leading-1 pb-[30px]'>We accept</p>
             </div>
-            <div className='w-[50px] h-[50px]'>
-              <Image src={Bkash} alt='logo'/>
+            <div className='w-[50px] h-[50px] items-center justify-center'>
+              <Image src={Bkash} alt='logo' />
+            </div> */}
+            {/* <div>
+              <p className='text-white text-[19px] xl:text-[24px] leading-1 pb-[30px]'>We accept</p>
             </div>
-            <div>
+            <div className='w-[50px] h-[50px] mx-auto sm:mx-0 flex justify-center items-center'>
+              <Image src={Bkash} alt='logo' />
+            </div> */}
 
+            <div>
+              <p className='text-white text-[19px] xl:text-[24px] leading-1 pb-[30px]'>We accept</p>
+              {/* flex container add korbo jate image sm screen e niche ashe */}
+              <div className='flex justify-center sm:justify-start w-[50px] h-[50px] mx-auto sm:mx-0 '>
+                <Image src={Bkash} alt='logo' width={50} height={50} />
+                <Image src={Visa} alt='logo' width={50} height={50} />
+                
+              </div>
             </div>
+
           </div>
         </div>
 
         <div className='text-[#4F4F4F]'>
-          <hr  />
+          <hr />
         </div>
-        
+
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-[30px] sm:gap-[120px] md:gap-[249px] lg:gap-[505px] xl:gap-[760px]  pt-[28px] '>
           <div className='px-[150px] sm:px-0 text-white'>
-            <FaFacebook className=' cursor-pointer hover:text-amber-500 w-6 h-6'/>
+            <FaFacebook className=' cursor-pointer hover:text-amber-500 w-6 h-6' />
           </div>
           <div className='px-[49px] sm:px-0 text-white'>
             <h3>© 2024 Roudra All rights reserved.</h3>
           </div>
         </div>
       </div>
-    </footer>
+    </footer >
   )
 }
 
