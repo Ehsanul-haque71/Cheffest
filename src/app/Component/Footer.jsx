@@ -43,26 +43,12 @@ const Footer = () => {
           </div>
 
           <div>
-            {/* <div>
-              <p className='text-white text-[19px] xl:text-[24px]  leading-1 pb-[30px]'>We accept</p>
-            </div>
-            <div className='w-[50px] h-[50px] items-center justify-center'>
-              <Image src={Bkash} alt='logo' />
-            </div> */}
-            {/* <div>
-              <p className='text-white text-[19px] xl:text-[24px] leading-1 pb-[30px]'>We accept</p>
-            </div>
-            <div className='w-[50px] h-[50px] mx-auto sm:mx-0 flex justify-center items-center'>
-              <Image src={Bkash} alt='logo' />
-            </div> */}
-
             <div>
               <p className='text-white text-[19px] xl:text-[24px] leading-1 pb-[30px]'>We accept</p>
               {/* flex container add korbo jate image sm screen e niche ashe */}
               <div className='flex justify-center sm:justify-start w-[50px] h-[50px] mx-auto sm:mx-0 '>
                 <Image src={Bkash} alt='logo' width={50} height={50} />
-                <Image src={Visa} alt='logo' width={50} height={50} />
-                
+                <Image src={Visa} alt='logo' width={50} height={50} />              
               </div>
             </div>
 
