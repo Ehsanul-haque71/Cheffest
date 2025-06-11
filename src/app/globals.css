@@ -21,8 +21,14 @@
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-x: ;
 }
 
+/* .container {
+  margin: 0;
+  padding-left: 135px;
+  padding-right: 135px;
+} */
 
 
 /* .container {
