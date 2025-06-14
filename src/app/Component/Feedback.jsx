@@ -7,7 +7,7 @@ const Feedback = () => {
         <div>
             <h1 className='text-white text-[50px] leading-[1.4] text-center'>What Our Clients Are Saying</h1>
         </div>
-        <div>heelo world</div>
+        <div className='text-white text-[50px] leading-[1.4] text-center'>heelo world</div>
       </div>
     </section>
   )
