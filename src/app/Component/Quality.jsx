@@ -36,7 +36,7 @@ const Quality = () => {
 
                 <div className='flex justify-center pt-[60px] cursor-pointer'>
                     <div className='bg-white rounded-4xl py-[16px] px-[110px] sm:py-[20px] sm:px-[54px]'>
-                        <h2 className='text-[14px] md:text-[18px] leading-[1.4]'>Become a Franchisee</h2>
+                        <h2 className='text-[12px] sm:text-[14px] md:text-[18px] leading-[1.4]'>Become a Franchisee</h2>
                     </div>
                 </div>
             </div>
