@@ -103,7 +103,7 @@ const Feedback = () => {
 
           </div>
 
-          <div className='pt-[30px] grid grid-cols-1 md:grid-cols-3 gap-[30px]'>
+          <div className='pt-[30px] grid grid-cols-1 md:grid-cols-3 gap-[30px] pb-[90px] md:pb-[150px]'>
             <div className='bg-[#191919] w-[335px] md:w-[370px] h-[370px] rounded-2xl px-[30px] py-[30px]'>
               <div className='flex gap-[12px]'>
                 <div>
