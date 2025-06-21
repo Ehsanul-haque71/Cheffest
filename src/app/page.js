@@ -4,6 +4,7 @@ import Video from './Component/Video';
 import Menu from '@/app/Component/Menu';
 import Quality from './Component/Quality';
 import Feedback from "./Component/Feedback";
+import Support from "./Component/Support";
 
 
 export default function Home () {
@@ -14,6 +15,7 @@ export default function Home () {
       <Menu/>
       <Quality/>
       <Feedback/>
+      <Support/>
     </div>
   )
 }
