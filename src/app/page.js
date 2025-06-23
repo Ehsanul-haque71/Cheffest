@@ -5,7 +5,7 @@ import Menu from '@/app/Component/Menu';
 import Quality from './Component/Quality';
 import Feedback from "./Component/Feedback";
 import Support from "./Component/Support";
-
+import Maps from "./Component/Maps";
 
 export default function Home () {
   return (
@@ -16,6 +16,7 @@ export default function Home () {
       <Quality/>
       <Feedback/>
       <Support/>
+      <Maps/>
     </div>
   )
 }
