@@ -6,7 +6,7 @@ const Support = () => {
             <div className='container'>
                 <div className='py-[80px] text-center '>
                     <div>
-                        <h2 className='text-black font-bold text-[70px] leading-[1.2] pb-[50px]'>For more Support</h2>
+                        <h2 className='text-black font-bold text-[39px] sm:text-[65px] md:text-[70px] leading-[1.2] pb-[50px]'>For more Support</h2>
                     </div>
                     <div className="flex items-center justify-center gap-[20px]">
                         <input
