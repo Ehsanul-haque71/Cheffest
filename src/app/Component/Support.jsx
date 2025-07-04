@@ -8,13 +8,13 @@ const Support = () => {
                     <div>
                         <h2 className='text-black font-bold text-[39px] sm:text-[65px] md:text-[70px] leading-[1.2] pb-[50px]'>For more Support</h2>
                     </div>
-                    <div className="flex items-center justify-center gap-[20px]">
+                    <div className="flex flex-col items-center sm:flex-row sm:justify-center gap-4">
                         <input
                             type="email"
                             placeholder="Enter Email"
                             className="px-6 py-3 rounded-full border border-black outline-none w-72"
                         />
-                        <button className="px-6 py-3 rounded-full bg-black text-white font-semibold">
+                        <button className=" px-6 py-3 rounded-full bg-black text-white font-semibold">
                             Subscribe
                         </button>
                     </div>
